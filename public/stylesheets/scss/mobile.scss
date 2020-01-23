@@ -260,43 +260,42 @@ footer {
 
 #skillcrush {
   padding: 20px 0;
+
+  h2 {
+    font-size: 30px;
+    font-family: $headline-font
+    color: $icon-color;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
+
+  img {
+    padding: 25px 0;
+  }
 }
 
 #hundred-days {
   padding: 20px 0;
-}
 
+  h2 {
+    font-size: 30px;
+    font-family: $headline-font;
+    color: $icon-color;
+    text-align: center;
+  }
 
-#skillcrush h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
 
-#skillcrush p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#skillcrush img {
-  padding: 25px 0;
-}
-
-#hundred-days h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#hundred-days p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#hundred-days img {
-  padding: 25px 0;
+  img {
+    padding: 25px 0;
+  }
 }
