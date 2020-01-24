@@ -1,0 +1,290 @@
+/* Variables */
+$base-font: 'Roboto Condensed', sans-serif;
+$headline-font: 'Homemade Apple', cursive;
+$base-color: #333;
+$white-color: #fdfcfb;
+$background-color: #558976;
+$link-color: #f6f2ea;
+$icon-color: #385001;
+$icon-hover-color: #9dac38;
+
+/* Basic Styles */
+body {
+  font-family: $base-font;
+  background-color: $white-color;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ==== Header ==== */
+header {
+  background-color: $background-color;
+
+  h1 {
+    font-size: 55px;
+    font-family: $headline-font;
+    color: $white-color;
+    padding: 80px 40px;
+  }
+
+  nav ul {
+    padding: 85px 0;
+  }
+
+  nav ul li {
+    font-weight: bold;
+  }
+
+  nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $link-color;
+    font-size: 22px;
+  }
+
+  nav ul li a:hover {
+    color: $white-color
+  }
+}
+
+/* ==== Footer ==== */
+footer {
+  background: $background-color;
+  padding: 15px 0;
+
+  p {
+    font-size: 16px;
+    color: $link-color;
+  }
+
+  ul li i {
+    color: $icon-color;
+  }
+
+  ul li i:hover {
+    color: $icon-hover-color;
+  }
+}
+
+/* ==== Home Page ==== */
+#career-compass {
+  padding: 20px 0;
+
+  p {
+    color: $base-color;
+    line-height: 32px;
+    font-size: 20px;
+  }
+}
+
+#skills {
+  padding: 20px 0;
+
+  i {
+    padding: 20px 80px;
+    color: $background-color;
+  }
+
+  p {
+    font-size: 20px;
+    color: $base-color;
+    line-height: 32px;
+  }
+}
+
+/* ==== About Page ==== */
+#about {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    word-spacing: 15px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
+}
+
+#education {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
+
+  .awards {
+    padding-bottom: 30px;
+  }
+}
+
+#blogs {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 35px;
+    color: $base-color;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
+
+  button {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+}
+
+#publications {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: $base-color;
+  }
+
+  ul li {
+    font-size: 20px;
+    color: $base-color;
+  }
+}
+
+#side-projects {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding-bottom: 15px;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  button {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+}
+
+/* Portfolio Page */
+#wordpress {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
+}
+
+#freecodecamp {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
+}
+
+#skillcrush {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
+}
+
+#hundred-days {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
+}

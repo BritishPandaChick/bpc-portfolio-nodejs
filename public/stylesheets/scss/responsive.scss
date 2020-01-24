@@ -221,71 +221,71 @@ footer {
     color: $base-color;
     font-size: 20px;
   }
+
+  img {
+    padding: 30px 0;
+  }
 }
 
 #freecodecamp {
   padding: 20px 0;
+
+  h2 {
+    font-size: 35px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
 }
 
 #skillcrush {
   padding: 20px 0;
+
+  h2 {
+    font-size: 35px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
+
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 30px 0;
+  }
 }
 
 #hundred-days {
   padding: 20px 0;
-}
 
-#wordpress img {
-  padding: 30px 0;
-}
+  h2 {
+    font-size: 35px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding: 15px 0;
+  }
 
-#freecodecamp h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
+  p {
+    line-height: 32px;
+    color: $base-color;
+    font-size: 20px;
+  }
 
-#freecodecamp p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#freecodecamp img {
-  padding: 30px 0;
-}
-
-#skillcrush h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#skillcrush p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#skillcrush img {
-  padding: 30px 0;
-}
-
-#hundred-days h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#hundred-days p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#hundred-days img {
-  padding: 30px 0;
+  img {
+    padding: 30px 0;
+  }
 }
