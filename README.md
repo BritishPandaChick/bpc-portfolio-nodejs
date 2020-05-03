@@ -8,6 +8,7 @@ Node.js version of portfolio site.
 * Font Awesome
 * Mongoose
 * EJS
+* Sass
 
 ## Contributions
 I will not be accepting any pull requests for this project.
