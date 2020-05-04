@@ -16,15 +16,11 @@ body {
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-}
-
 /* ==== Header ==== */
 header {
   background-color: $background-color;
 
-  h1 {
+  a {
     font-size: 35px;
     font: $headline-font;
     color: $white-color;
