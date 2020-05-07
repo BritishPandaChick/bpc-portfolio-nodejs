@@ -2,9 +2,10 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
+  font-size: 20px;
   width: 100%;
   margin: 0 auto;
-  font-size: 20px;
+  color: #333;
 }
 
 /* ==== Header ==== */
@@ -12,16 +13,10 @@ header {
   background-color: #558976;
 }
 
-header h1 a {
+header h1 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  text-decoration: none;
-}
-
-header h1 a:hover {
-  color: #fdfcfb;
-  text-decoration: none;
 }
 
 header nav ul li {
@@ -30,7 +25,6 @@ header nav ul li {
 
 header nav ul li a {
   text-transform: uppercase;
-  text-decoration: none;
   color: #f6f2ea;
   font-size: 20px;
 }
@@ -59,30 +53,22 @@ footer ul li i:hover {
 }
 
 /* ==== Home Page ==== */
-#career-compass, #skills {
+#career-compass, #design, #frontend, #backend {
   padding: 20px 0;
 }
 
-#career-compass p {
+#career-compass p, #design p, #frontend p, #backend p {
   color: #333;
   line-height: 32px;
   font-size: 20px;
 }
 
-#skills i {
-  color: #558976;
-  padding: 15px 75px;
-}
-
-#skills p {
-  color: #333;
-  line-height: 32px;
-  padding: 20px;
-  font-size: 20px;
+#design img, #frontend img, #backend img {
+  margin-bottom: 20px;
 }
 
 /* ==== About Page ==== */
-#about, #education, #blogs, #publications, #side-projects {
+#about, #education, #honors, #blogs, #publications, #side-projects {
   padding: 20px 0;
 }
 
