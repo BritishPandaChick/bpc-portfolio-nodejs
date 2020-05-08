@@ -2,7 +2,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
-  font-size: 20px;
   width: 100%;
   margin: 0 auto;
   color: #333;
@@ -80,167 +79,63 @@ footer ul li i:hover {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  text-align: center;
   word-spacing: 15px;
-  text-align: center;
 }
 
-#about p {
+#about p, #education p, #honors p, #blogs p, #publications p, #side-projects p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
-#education h2 {
-  font-size: 30px;
+#education h3, #honors h3, #blogs h3, #publications h3, #side-projects h3 {
+  font-size: 25px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
-  text-align: center;
-}
-
-#education p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#education .formal {
-  padding-bottom: 25px;
-}
-
-#education .awards {
-  padding-bottom: 25px;
-}
-
-#blogs h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding-bottom: 10px;
   text-align: center;
 }
 
 #blogs h3 {
-  font-size: 25px;
-  color: #333;
+  padding-bottom: 10px;
 }
 
-#blogs p {
-  line-height: 32px;
-  color: #333;
-  padding-bottom: 15px;
+#blogs h4 {
   font-size: 20px;
 }
 
-#blogs button {
+#blogs button, #side-projects button {
   margin-bottom: 50px;
-}
-
-#publications h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#publications p {
-  line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
 #publications ul li {
-  color: #333;
-  font-size: 20px;
-}
-
-#side-projects h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#side-projects p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#side-projects button {
-  margin-bottom: 50px;
   font-size: 20px;
 }
 
 /* ==== Portfolio Page ==== */
-#wordpress, #freecodecamp, #skillcrush, #hundred-days {
+#cat-clock, #election-map, #author-site {
   padding: 20px 0;
 }
 
-#wordpress h2 {
-  font-size: 30px;
+#cat-clock h2 {
   font-family: 'Homemade Apple', cursive;
-  color: #385001;
+  font-size: 30px;
+  color:#385001;
+  word-spacing: 15px;
+  padding: 20px 0;
+}
+
+#cat-clock img, #election-map img, #author-site img {
+  margin-bottom: 30px;
+}
+
+#cat-clock h3, #election-map h3, #author-site h3 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
   text-align: center;
 }
 
-#wordpress p {
+#cat-clock p, #election-map p, #author-site p {
   font-size: 20px;
   line-height: 32px;
-  color: #333;
-}
-
-#wordpress img {
-  padding: 25px 0;
-}
-
-#freecodecamp h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding-bottom: 15px;
-  text-align: center;
-}
-
-#freecodecamp p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#freecodecamp img {
-  padding: 25px 0;
-}
-
-#skillcrush h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#skillcrush p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#skillcrush img {
-  padding: 25px 0;
-}
-
-#hundred-days h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#hundred-days p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#hundred-days img {
-  padding: 25px 0;
 }
