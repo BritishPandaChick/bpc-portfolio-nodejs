@@ -62,10 +62,6 @@ footer ul li i:hover {
   font-size: 20px;
 }
 
-#design img, #frontend img, #backend img {
-  margin-bottom: 20px;
-}
-
 /* ==== About Page ==== */
 #about, #education, #honors, #blogs, #publications, #side-projects {
   padding: 20px 0;
@@ -79,7 +75,6 @@ footer ul li i:hover {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
-  text-align: center;
   word-spacing: 15px;
 }
 
@@ -138,4 +133,8 @@ footer ul li i:hover {
 #cat-clock p, #election-map p, #author-site p {
   font-size: 20px;
   line-height: 32px;
+}
+
+#cat-clock button, #election-map button, #author-site button {
+  font-size: 20px;
 }
